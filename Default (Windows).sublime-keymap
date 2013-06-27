@@ -275,7 +275,7 @@
         ]
     },
     // Set Headers Levels With Shortcuts
-    { "keys": ["shift+ctrl+1"], "command": "insert_snippet", "args": {"contents": "# $0"}, "context":
+    { "keys": ["shift+alt+ctrl+1"], "command": "insert_snippet", "args": {"contents": "# $0"}, "context":
      [
          { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
          { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
@@ -285,7 +285,7 @@
          { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
      ]
     },
-    { "keys": ["shift+ctrl+1"], "command": "insert_snippet", "args": {"contents": "#${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g}}$1"}, "context":
+    { "keys": ["shift+alt+ctrl+1"], "command": "insert_snippet", "args": {"contents": "#${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g}}$1"}, "context":
         [
             { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "setting.match_header_hashes", "operator": "equal", "operand": false },
@@ -293,7 +293,7 @@
             { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
         ]
     },
-    { "keys": ["shift+ctrl+1"], "command": "insert_snippet", "args": {"contents": "#${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g} }#$1"}, "context":
+    { "keys": ["shift+alt+ctrl+1"], "command": "insert_snippet", "args": {"contents": "#${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g} }#$1"}, "context":
         [
             { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "setting.match_header_hashes", "operator": "equal", "operand": true },
@@ -301,7 +301,7 @@
             { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
         ]
     },
-    { "keys": ["shift+ctrl+2"], "command": "insert_snippet", "args": {"contents": "## $0"}, "context":
+    { "keys": ["shift+alt+ctrl+2"], "command": "insert_snippet", "args": {"contents": "## $0"}, "context":
      [
          { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
          { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
@@ -311,7 +311,7 @@
          { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
      ]
     },
-    { "keys": ["shift+ctrl+2"], "command": "insert_snippet", "args": {"contents": "##${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g}}$1"}, "context":
+    { "keys": ["shift+alt+ctrl+2"], "command": "insert_snippet", "args": {"contents": "##${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g}}$1"}, "context":
         [
             { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "setting.match_header_hashes", "operator": "equal", "operand": false },
@@ -319,7 +319,7 @@
             { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
         ]
     },
-    { "keys": ["shift+ctrl+2"], "command": "insert_snippet", "args": {"contents": "##${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g} }##$1"}, "context":
+    { "keys": ["shift+alt+ctrl+2"], "command": "insert_snippet", "args": {"contents": "##${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g} }##$1"}, "context":
         [
             { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "setting.match_header_hashes", "operator": "equal", "operand": true },
@@ -327,7 +327,7 @@
             { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
         ]
     },
-    { "keys": ["shift+ctrl+3"], "command": "insert_snippet", "args": {"contents": "### $0"}, "context":
+    { "keys": ["shift+alt+ctrl+3"], "command": "insert_snippet", "args": {"contents": "### $0"}, "context":
      [
          { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
          { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
@@ -337,7 +337,7 @@
          { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
      ]
     },
-    { "keys": ["shift+ctrl+3"], "command": "insert_snippet", "args": {"contents": "###${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g}}$1"}, "context":
+    { "keys": ["shift+alt+ctrl+3"], "command": "insert_snippet", "args": {"contents": "###${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g}}$1"}, "context":
         [
             { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "setting.match_header_hashes", "operator": "equal", "operand": false },
@@ -345,7 +345,7 @@
             { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
         ]
     },
-    { "keys": ["shift+ctrl+3"], "command": "insert_snippet", "args": {"contents": "###${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g} }###$1"}, "context":
+    { "keys": ["shift+alt+ctrl+3"], "command": "insert_snippet", "args": {"contents": "###${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g} }###$1"}, "context":
         [
             { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "setting.match_header_hashes", "operator": "equal", "operand": true },
@@ -353,7 +353,7 @@
             { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
         ]
     },
-    { "keys": ["shift+ctrl+4"], "command": "insert_snippet", "args": {"contents": "#### $0"}, "context":
+    { "keys": ["shift+alt+ctrl+4"], "command": "insert_snippet", "args": {"contents": "#### $0"}, "context":
      [
          { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
          { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
@@ -363,7 +363,7 @@
          { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
      ]
     },
-    { "keys": ["shift+ctrl+4"], "command": "insert_snippet", "args": {"contents": "####${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g}}$1"}, "context":
+    { "keys": ["shift+alt+ctrl+4"], "command": "insert_snippet", "args": {"contents": "####${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g}}$1"}, "context":
         [
             { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "setting.match_header_hashes", "operator": "equal", "operand": false },
@@ -371,7 +371,7 @@
             { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
         ]
     },
-    { "keys": ["shift+ctrl+4"], "command": "insert_snippet", "args": {"contents": "####${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g} }####$1"}, "context":
+    { "keys": ["shift+alt+ctrl+4"], "command": "insert_snippet", "args": {"contents": "####${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g} }####$1"}, "context":
         [
             { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "setting.match_header_hashes", "operator": "equal", "operand": true },
@@ -379,7 +379,7 @@
             { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
         ]
     },
-    { "keys": ["shift+ctrl+5"], "command": "insert_snippet", "args": {"contents": "##### $0"}, "context":
+    { "keys": ["shift+alt+ctrl+5"], "command": "insert_snippet", "args": {"contents": "##### $0"}, "context":
      [
          { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
          { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
@@ -389,7 +389,7 @@
          { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
      ]
     },
-    { "keys": ["shift+ctrl+5"], "command": "insert_snippet", "args": {"contents": "#####${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g}}$1"}, "context":
+    { "keys": ["shift+alt+ctrl+5"], "command": "insert_snippet", "args": {"contents": "#####${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g}}$1"}, "context":
         [
             { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "setting.match_header_hashes", "operator": "equal", "operand": false },
@@ -397,7 +397,7 @@
             { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
         ]
     },
-    { "keys": ["shift+ctrl+5"], "command": "insert_snippet", "args": {"contents": "#####${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g} }#####$1"}, "context":
+    { "keys": ["shift+alt+ctrl+5"], "command": "insert_snippet", "args": {"contents": "#####${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g} }#####$1"}, "context":
         [
             { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "setting.match_header_hashes", "operator": "equal", "operand": true },
@@ -405,7 +405,7 @@
             { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
         ]
     },
-    { "keys": ["shift+ctrl+6"], "command": "insert_snippet", "args": {"contents": "###### $0"}, "context":
+    { "keys": ["shift+alt+ctrl+6"], "command": "insert_snippet", "args": {"contents": "###### $0"}, "context":
      [
          { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
          { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
@@ -415,7 +415,7 @@
          { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
      ]
     },
-    { "keys": ["shift+ctrl+6"], "command": "insert_snippet", "args": {"contents": "######${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g}}$1"}, "context":
+    { "keys": ["shift+alt+ctrl+6"], "command": "insert_snippet", "args": {"contents": "######${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g}}$1"}, "context":
         [
             { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "setting.match_header_hashes", "operator": "equal", "operand": false },
@@ -423,7 +423,7 @@
             { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
         ]
     },
-    { "keys": ["shift+ctrl+6"], "command": "insert_snippet", "args": {"contents": "######${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g} }######$1"}, "context":
+    { "keys": ["shift+alt+ctrl+6"], "command": "insert_snippet", "args": {"contents": "######${0: ${SELECTION/(^( +)?(#+)?\\s*|\\s*(#+)?( +)?$)//g} }######$1"}, "context":
         [
             { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "setting.match_header_hashes", "operator": "equal", "operand": true },
